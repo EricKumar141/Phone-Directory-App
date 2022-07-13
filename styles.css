@@ -8,6 +8,9 @@ input {
   padding: 5px;
   font-size: 12px;
 }
+body{
+  text-align: center;
+}
 li {
   list-style: none;
 }
@@ -115,12 +118,19 @@ input:focus {
 .contactSummary {
   padding-top: 10px;
 }
+#summaryTable{
+  margin: 0 auto;
+}
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  text-align: center;
 }
 th, td {
   padding: 10px;
   min-width: 150px;
   text-align: left;
+}
+tbody tr:nth-child(odd){
+  background-color: #CACACA;
 }
